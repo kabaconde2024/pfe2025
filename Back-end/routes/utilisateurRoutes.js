@@ -5,7 +5,7 @@ const crypto = require('crypto'); // Import the crypto module
 const jwt = require('jsonwebtoken');
 const Utilisateur = require('../models/Utilisateur');
 const Notification = require('../models/Notification');
-const Candidature = require("../models/candidature");
+const Candidature = require("../models/Candidature");
 
 const isAuthenticated = require('../middlewares/auth');
 require('dotenv').config();
