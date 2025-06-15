@@ -1,0 +1,45 @@
+.table-card {
+    background-color: #ffffff; /* Couleur de fond blanc pour la carte */
+    border: 1px solid #ddd; /* Ajout d'une bordure fine */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus prononcée */
+    margin-bottom: 20px; /* Espace ajouté en bas de la carte */
+  }
+  
+  .custom-table {
+    margin-top: 20px;
+    border-collapse: collapse; /* Utilisation de collapse pour supprimer l'espace entre les cellules */
+  }
+  
+  .custom-table th, .custom-table td {
+    background-color: #f7f9fc; /* Couleur de fond unique pour toutes les cellules */
+    color: #333; /* Couleur du texte pour toutes les cellules */
+    padding: 12px; /* Ajout de padding */
+    border: 1px solid #ddd; /* Bordure pour toutes les cellules */
+  }
+  
+  .menu-row:hover {
+    background-color: #e4f0fe; /* Couleur de survol des lignes du menu */
+  }
+  
+  .submenu-row {
+    background-color: #f1f3f5; /* Crée une distinction pour les sous-menus */
+  }
+  
+  .icon-button {
+    font-size: 18px; /* Taille des icônes */
+    vertical-align: middle; /* Aligner verticalement les icônes */
+    padding: 0; /* Supprime le padding par défaut des boutons */
+  }
+  
+  .icon-button:hover {
+    color: #0056b3; /* Couleur de survol pour le bouton d'édition */
+  }
+  
+  .icon-button:last-child:hover {
+    color: #c82333; /* Couleur de survol pour le bouton de suppression */
+  }
+  
+  .alert {
+    margin-top: 15px; /* Espace au-dessus de l'alerte */
+  }
